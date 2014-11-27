@@ -9114,6 +9114,8 @@ let
 
   bvi = callPackage ../applications/editors/bvi { };
 
+  cairo-dock-core = callPackage ../applications/misc/cairo-dock-core { };
+
   calf = callPackage ../applications/audio/calf {
       inherit (gnome) libglade;
   };
