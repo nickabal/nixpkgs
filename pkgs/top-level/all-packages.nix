@@ -9116,6 +9116,8 @@ let
 
   cairo-dock-core = callPackage ../applications/misc/cairo-dock-core { };
 
+  cairo-dock-plug-ins =  callPackage ../applications/misc/cairo-dock-plugins { };
+
   calf = callPackage ../applications/audio/calf {
       inherit (gnome) libglade;
   };
